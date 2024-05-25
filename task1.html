@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <style>
+      body {
+        height: 100vh;
+        width: 100vw;
+        background-color: #e8eff6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .wrapper {
+        background-color: white;
+        display: flex;
+        width: 50%;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .wrapper > .image {
+        flex: 2 1 200px;
+      }
+
+      .wrapper > .content {
+        flex: 3 1 400px;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>hello</li>
+    </ul>
+
+    <div class="wrapper">
+      <div class="image">
+        <img
+          src="./assets/images/drawers.jpg"
+          alt="banner"
+          width="100%"
+          style="aspect-ratio: 1 / 1"
+        />
+      </div>
+      <div class="content">
+        <h1
+          style="
+            margin: 0;
+            padding: 0;
+            font-size: 24px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+          "
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A, ea? Rem
+          molestiae consequuntur temporibus nobis commodi illum vero enim maxime
+          aliquam doloremque
+        </h1>
+        <p
+          style="
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 4;
+          "
+        >
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
+          inventore aperiam et facilis impedit modi voluptates est sit
+          consequuntur rerum reiciendis minima, a repellendus nemo mollitia
+          doloribus quisquam velit! Enim.
+        </p>
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          "
+        >
+          <div style="display: flex; align-items: center; gap: 10px">
+            <div>
+              <img
+                src="./assets/images/avatar-michelle.jpg"
+                alt="avatar"
+                height="42px"
+                width="42px"
+                style="border-radius: 50%"
+              />
+            </div>
+            <div>
+              <h2 style="margin: 0; padding: 0; font-size: 20px">
+                Yagnesh Modh
+              </h2>
+              <time datetime="2020-06-28T00:00:00.000Z">28 Jun 2020</time>
+            </div>
+          </div>
+          <img
+            src="./assets/images/icon-share.svg"
+            alt="share"
+            height="42px"
+            width="42px"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
